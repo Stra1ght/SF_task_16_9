@@ -12,5 +12,5 @@ class setStatus(Guest):
     def printInfo(self):
         print('{} {}, г.{}, статус "{}"'.format(self.firstname, self.lastname, self.city, self.status))
 
-guest_1 = setStatus("Иван", "Петров", "Москва", "Наставник")
+guest_1 = setStatus("Геннадий", "Федорович", "Ростов-на-Дону", "Руководитель")
 guest_1.printInfo()
